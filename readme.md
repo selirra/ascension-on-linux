@@ -33,3 +33,7 @@ wget https://dl.winehq.org/wine/wine-mono/6.3.0/wine-mono-6.3.0-x86.msi
 wine msiexec /i wine-mono-6.3.0-x86.msi
 winetricks win10 ie8 corefonts dotnet45 vcrun2015
 ```
+## Packages needed for sound
+```
+lib32-alsa-plugins lib32-libpulse lib32-openal
+```
